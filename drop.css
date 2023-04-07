@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.dropdown{
+  margin: 3rem auto;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 500px;
+}
+.dropdown dt{
+  background: #ecf0bb;
+  border: solid 1px #6b6b6a;
+  text-align: center;
+
+}
+.dropdown dd{
+  background: rgb(199, 205, 202);
+  border: solid 1px #6b6b6a;
+  margin: 0;
+  text-align: center;
+  display: none;
+}
+p{
+  text-align: center;
+}
+.scroll{
+  width: 100vw;
+  margin: 0 auto;
+  text-align: right;
+}
+#scrolltop{
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border:solid 5px rgb(247, 20, 98);
+  border-radius: 50%;
+  background: #fcffc9;
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+}
+.slide-show{
+  width: 90%;
+  margin: 0 auto;
+  background: #636564;
+  text-align: center;
+}
+.slide-show img{
+  width: 95%;
+  margin: 0 auto;
+}
